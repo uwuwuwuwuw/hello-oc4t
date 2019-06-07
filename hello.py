@@ -5,8 +5,8 @@ a = input("Insert N = ")
 n = int(a)
 
 if n < m:
-    print("N smaller than M")
+    print(m)
 elif n > m:
-    print("N bigger than M")
+    print(n)
 else:
-    print("You are lucky!")
+    print("You are lucky! M = N")
